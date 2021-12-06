@@ -19,5 +19,4 @@ module.exports = {
         }),
     ],
 
-    mode: 'production' //Кидаем всё в продакшен, потому что да
 }

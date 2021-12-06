@@ -1,1 +1,1 @@
-console.log("Как интересно!")
+console.log('GOOD')
