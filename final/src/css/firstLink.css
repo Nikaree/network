@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Цвет фона веб-страницы */
+}
+
+.btnInfo {
+  transition: all 0.5s;
+  width: 230px;
+  height: 35px;
+  font-size: 20px;
+  color: rgba(218, 232, 233, 0.918);
+  background-color: #000000;
+  border-width: 1;
+  font-family: "Dosis", sans;
+  font-weight: 200;
+  border-color: rgba(29, 201, 207, 0.918);
+  border-style: solid;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+.btnZodiac {
+  transition: all 0.5s;
+  width: 230px;
+  height: 35px;
+  font-size: 20px;
+  color: rgba(218, 232, 233, 0.918);
+  background-color: #000000;
+  border-width: 1;
+  font-family: "Dosis", sans;
+  font-weight: 200;
+  border-color: rgba(29, 201, 207, 0.918);
+  border-style: solid;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.btnInfo:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.btnZodiac:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.formZodiac {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 400px;
+  right: 50px;
+  margin: auto;
+}
+
+.btnChooseZodiac {
+  transition: all 0.5s;
+  font-family: "Dosis", sans;
+  font-weight: 200;
+  font-size: 18px;
+  background-color: black;
+  color: rgba(218, 232, 233, 0.918);
+  border-color: rgba(29, 201, 207, 0.918);
+  border-style: solid;
+  border-width: 1;
+  width: 10%;
+  height: 35px;
+  margin: 0px auto 25px auto;
+}
+
+.btnChooseZodiac:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.formOneZodiac {
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  right: 50px;
+  margin: auto;
+  color: rgba(218, 232, 233, 0.918);
+  border-color: rgba(93, 233, 238, 0.918);
+  border-style: solid;
+  border-width: 1;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.formInfo {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 400px;
+  right: 50px;
+  margin: auto;
+  color: rgba(218, 232, 233, 0.918);
+  border-color: rgba(93, 233, 238, 0.918);
+  border-style: solid;
+  border-width: 1;
+  padding: 25px;
+  font-size: 20px;
+
+}
