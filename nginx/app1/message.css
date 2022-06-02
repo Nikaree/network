@@ -1,0 +1,104 @@
+body {
+    background: rgb(230, 185, 248);
+    max-width: 1400px;
+}
+
+.vl {
+    border-left: 4px solid black;
+    height: 723px;
+    position: absolute;
+    left: 24%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.messages {
+    position: absolute;
+    left: 492px;
+    bottom: 80px;
+    width: 990px;
+    height: 590px;
+    overflow: auto;
+}
+
+.formHoney {
+    position: absolute;
+    border-radius: 6px;
+    bottom: 30px;
+    right: 130px;
+    padding: 10px;
+    width: 850px;
+    border-style: black;
+}
+
+.formMummy {
+    position: absolute;
+    border-radius: 6px;
+    bottom: 30px;
+    right: 130px;
+    padding: 10px;
+    width: 850px;
+    border-style: black;
+}
+
+.btnSend {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    color: black;
+    background-color: #d69bd6;
+    border-style: black;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+
+.btnHoney {
+    width: 200px;
+    border-radius: 26px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    background-color: #d69bd6;
+    border-style: black;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.btnMummy {
+    width: 200px;
+    border-radius: 26px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    background-color: #d69bd6;
+    border-style: black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.OneMessage {
+    background-color: #d69bd6;
+    padding: 4px;
+    width: fit-content;
+    margin: 2px 1em 0 auto;
+    border-radius: 30px;
+    border-style: black;
+    text-align: right;
+    right: 100px;
+    text-align: right;
+    top: -13px;
+}
+
+.BotMessage {
+    background-color: #d69bd6;
+    padding: 4px;
+    width: fit-content;
+    margin: 3%;
+    border-radius: 30px;
+    border-style: black;
+    text-align: left;
+    left: 20 px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My messenger</title>
+    <link href="message.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+    <div class="vl"></div>
+ 
+    <script src="message.js"></script>
+    <div hidden id="HoneyMessage" class="messages"> </div>
+    <div id="MummyMessage" class="messages"> </div>
+
+
+    <input hidden id="inputMessageHoney" class="formHoney" type="text" placeholder="Message for Honey">
+    <button hidden id="btnSendHoney" type="button" class="btnSend" onclick="HoneySend()">Send</button>
+
+    <input id="inputMessageMummy" class="formMummy" type="text" placeholder="Message for Mummy">
+    <button id="btnSendMummy" type="button" class="btnSend" onclick="MummySend()">Send</button>
+
+
+    <input id="Honey" class="btnHoney" type="button" value="Honey" onclick="HoneyWindow()">
+    <input id="Mummy" class="btnMummy" type="button" value="Mummy" onclick="MummyWindow()">
+
+    
+
+</body>
+
+</html>
