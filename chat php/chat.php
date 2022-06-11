@@ -70,6 +70,7 @@ if (isset($_GET['enter'])){
 }
 //Удаление всех сообщений
 if (isset($_GET['clear'])){
+    
     unlink('archive.json');
     echo "<script> alert('История очищена') </script>";
     header('Refresh: 0; url=index.php');
