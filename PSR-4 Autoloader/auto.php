@@ -1,13 +1,15 @@
 <?php
-spl_autoload_register(function ($class_name) {
 
-    $path = dirname(__DIR__ ) . '/' . 'src/' . str_replace("\\", "/", $class_name) . 'php';
-    require_once ($path);
-
+spl_autoload_register(function ($MyClasses) {
+    $Path = __DIR__ . '/'. str_replace("\\", "/",$MyClasses ) . '.php';
+    require_once $Path;
 });
 
-$obj  = new MyClass1();
-$obj2 = new MyClass2();
 
-$obj ->show();
-$obj2->show();
+use MyClasses\MyClass1;
+use MyClasses\Myclass2\MyClass2;
+
+($class1 = new MyClass1())->show();
+($class2 = new MyClass2())->show();
+
+
