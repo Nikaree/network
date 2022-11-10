@@ -73,7 +73,7 @@ if (isset($_GET['clear'])){
     
     unlink('archive.json');
     echo "<script> alert('История очищена') </script>";
-    header('Refresh: 0; url=index.php');
+    header('Refresh: 0; url=auto.php');
 }
 ?>
 
